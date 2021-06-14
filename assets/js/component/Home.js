@@ -19,7 +19,7 @@ const Home = () => {
 
     useEffect(() => {
 
-        const fetchArticles = async () => {
+        const fetchArticles =  () => {
             setLoading(true);
             // await axios.get(CORS_PROXY+URL)
             //     .then(function(response){
@@ -27,16 +27,26 @@ const Home = () => {
             //         setArticles(response.data);
             //         setLoading(false);
             //     });
-            await fetch(CORS_PROXY+URL, {method: 'get', headers: {'Content-Type': 'application/rss+xml'}})
-                .then(response => response.text())
-                .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-                .then(data => {
-                    console.log(data);
-                    const items = data.querySelectorAll("item");
-                    console.log(items)
-                });
+            // await fetch(CORS_PROXY+URL, {method: 'get', headers: {'Content-Type': 'application/rss+xml'}})
+            //     .then(response => response.text())
+            //     .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+            //     .then(data => {
+            //         console.log(data);
+            //         const items = data.querySelectorAll("item");
+            //         console.log(items)
+            //     });
+            feednami.load(URL,function(result){
+                if(result.error){
+                    console.log(result.error)
+                }
+                else{
+                    // console.log(result.feed)
+                    var entries = result
+                    setArticles(entries);
+                    setLoading(false);
+                }
+            })
         };
-
         const runFetchApi = () => {
             fetchArticles();
             const interval = setInterval(() => {

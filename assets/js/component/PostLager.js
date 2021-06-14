@@ -5,7 +5,7 @@ const PostLager = ({ articles, loading, time, search }) => {
     const { start, end } = time;
     if (articles.feed && !loading) {
         let getImg = articles.feed.entries;
-        let linkImg = getImg.map((art) => (art.content.slice(art.content.indexOf('<img src="') + 10, art.content.lastIndexOf('</br>') - 7)));
+        let linkImg = getImg.map((art) => (art.summary.slice(art.summary.indexOf('<img src="') + 10, art.summary.lastIndexOf('</br>') - 7)));
         if (start != null && end != null) {
 
             const filterArticles = articles.feed.entries.filter((article) => {
@@ -21,7 +21,7 @@ const PostLager = ({ articles, loading, time, search }) => {
                         <div key={index} className="post-preview clearfix">
                             {/* <div data-mh="post-preview-group" className="thumbnail jpibfi_container" style={{ height: '204px' }} dangerouslySetInnerHTML={{ __html: article.content }}/> */}
                             <div data-mh="post-preview-group" className="thumbnail jpibfi_container" >
-                                <a href={article.link}><span><img width={320} src={article.content.slice(article.content.indexOf('<img src="') + 10, article.content.lastIndexOf('</br>') - 7)} className="attachment-thumbnail size-thumbnail wp-post-image" /></span></a>
+                                <a href={article.link}><span><img width={320} src={article.summary.slice(article.summary.indexOf('<img src="') + 10, article.summary.lastIndexOf('</br>') - 7)} className="attachment-thumbnail size-thumbnail wp-post-image" /></span></a>
                             </div>
                             <div data-mh="post-preview-group" className="info">
                                 <p className="post-meta">{article.pubDate} <span className="sep">•</span> <a href="https://www.eatyourselfskinny.com/hot-italian-sliders/#respond">0 Comments</a></p>
@@ -38,6 +38,7 @@ const PostLager = ({ articles, loading, time, search }) => {
                     <div className="alert-notfond">Not found new paper</div>
                 );
         } else if (search.length > 0) {
+            // console.log("Searching");
             function change_alias(alias) {
                 var str = alias;
                 str = str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
@@ -71,7 +72,7 @@ const PostLager = ({ articles, loading, time, search }) => {
                         <div key={inx} className="post-preview clearfix">
                         {/* <div data-mh="post-preview-group" className="thumbnail jpibfi_container" style={{ height: '204px' }} dangerouslySetInnerHTML={{ __html: article.content }}/> */}
                         <div data-mh="post-preview-group" className="thumbnail jpibfi_container" >
-                            <a href={art.link}><span><img width={320} src={art.content.slice(art.content.indexOf('<img src="') + 10, art.content.lastIndexOf('</br>') - 7)} className="attachment-thumbnail size-thumbnail wp-post-image" /></span></a>
+                            <a href={art.link}><span><img width={320} src={art.summary.slice(art.summary.indexOf('<img src="') + 10, art.summary.lastIndexOf('</br>') - 7)} className="attachment-thumbnail size-thumbnail wp-post-image" /></span></a>
                         </div>
                         <div data-mh="post-preview-group" className="info">
                             <p className="post-meta">{art.pubDate} <span className="sep">•</span> <a href="https://www.eatyourselfskinny.com/hot-italian-sliders/#respond">0 Comments</a></p>
@@ -96,7 +97,7 @@ const PostLager = ({ articles, loading, time, search }) => {
                         <div key={index} className="post-preview clearfix">
                             {/* <div data-mh="post-preview-group" className="thumbnail jpibfi_container" style={{ height: '204px' }} dangerouslySetInnerHTML={{ __html: article.content }}/> */}
                             <div className="thumbnail jpibfi_container" >
-                                <a href={article.link}><span><img width={320} src={article.content.slice(article.content.indexOf('<img src="') + 10, article.content.lastIndexOf('</br>') - 7)} className="attachment-thumbnail size-thumbnail wp-post-image" /></span></a>
+                                <a href={article.link}><span><img width={320} src={article.summary.slice(article.summary.indexOf('<img src="') + 10, article.summary.lastIndexOf('</br>') - 7)} className="attachment-thumbnail size-thumbnail wp-post-image" /></span></a>
                             </div>
                             <div data-mh="post-preview-group" className="info">
                                 <p className="post-meta">{article.pubDate} <span className="sep">•</span> <a href="https://www.eatyourselfskinny.com/hot-italian-sliders/#respond">0 Comments</a></p>
