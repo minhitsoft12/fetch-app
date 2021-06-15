@@ -30,10 +30,14 @@ class SetTime extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
-        if (this.handleValidation()) {
-            this.props.handleTime(this.state);
+        if(new Date(this.state.fields["timeStart"]).getTime() <=  new Date(this.state.fields["timeEnd"]).getTime()) {
+            if (this.handleValidation()) {
+                this.props.handleTime(this.state);
+            } else {
+                alert("Form has errors");
+            }
         } else {
-            alert("Form has errors");
+            alert("Start Date can not be greater than the end date. Please choose again!")
         }
     };
 
