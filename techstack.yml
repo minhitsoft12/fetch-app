@@ -1,0 +1,437 @@
+repo_name: minhitsoft12/fetch-app
+report_id: b3049c96c225bc626595098863debfcb
+repo_type: Public
+timestamp: '2023-12-06T03:39:11+00:00'
+requested_by: minhitsoft12
+provider: github
+branch: main
+detected_tools_count: 33
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: Stimulus
+  description: A modest JavaScript framework for the HTML you already have, by Basecamp
+  website_url: https://github.com/stimulusjs/stimulus/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/8220/32970053.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: Symfony
+  description: A PHP full-stack web framework
+  website_url: http://symfony.com/
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: Twig
+  description: A flexible, fast, and secure template engine
+  website_url: https://twig.symfony.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1642/default_3debd3a9a6d757c011130c7a9626e7c3bd8be945.png
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:03:03.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.14.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.38.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: webpack.config.js
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source: yarn.lock
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: doctrine/annotations
+  description: Docblock Annotations Parser
+  package_url: https://packagist.org/doctrine/annotations
+  version: 1.13.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: symfony/console
+  description: Eases the creation of beautiful and testable command line interfaces
+  package_url: https://packagist.org/symfony/console
+  version: 5.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: symfony/dotenv
+  description: Registers environment variables from a .env file
+  package_url: https://packagist.org/symfony/dotenv
+  version: 5.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: symfony/flex
+  description: Composer plugin for Symfony
+  package_url: https://packagist.org/symfony/flex
+  version: 1.13.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: symfony/framework-bundle
+  description: Provides a tight integration between Symfony components and the Symfony
+    full-stack framework
+  package_url: https://packagist.org/symfony/framework-bundle
+  version: 5.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: symfony/maker-bundle
+  description: Symfony Maker helps you create empty commands
+  package_url: https://packagist.org/symfony/maker-bundle
+  version: 1.31.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: symfony/twig-bundle
+  description: Provides a tight integration of Twig into the Symfony full-stack framework
+  package_url: https://packagist.org/symfony/twig-bundle
+  version: 5.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: symfony/webpack-encore-bundle
+  description: Integration with your Symfony app &amp; Webpack Encore!
+  package_url: https://packagist.org/symfony/webpack-encore-bundle
+  version: 1.11.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: symfony/yaml
+  description: Loads and dumps YAML files
+  package_url: https://packagist.org/symfony/yaml
+  version: 5.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: twig/extra-bundle
+  description: A Symfony bundle for extra Twig extensions
+  package_url: https://packagist.org/twig/extra-bundle
+  version: 3.3.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: twig/twig
+  description: Twig
+  package_url: https://packagist.org/twig/twig
+  version: 3.3.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.14.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 3.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: regenerator-runtime
+  description: Runtime for Regenerator-compiled generator and async functions
+  package_url: https://www.npmjs.com/regenerator-runtime
+  version: 0.13.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
+- name: webpack-notifier
+  description: Webpack + node-notifier = build status system notifications
+  package_url: https://www.npmjs.com/webpack-notifier
+  version: 1.13.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17675/default_e87994647b10b361432e73d1831e5982307760e2.png
+  detection_source_url: github.com/minhitsoft12/fetch-app/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Minh FE
+  last_updated_on: 2021-06-13 11:35:11.000000000 Z
